@@ -7,9 +7,10 @@
 <head>
 <meta charset="ISO-8859-1">
 <title>Students of a Class</title>
-<link type="text/css" rel="stylesheet" href="css/style.css">
+<link type="text/css" rel="stylesheet" href="css/style.css"> 
 </head>
 <body style="background-image: url('css/background.jpg');">
+ <form action="AdminControllerServlet" method="POST">
 	<div id="page">
 		<jsp:include page="left-list.jsp" />
 
@@ -20,9 +21,11 @@
 			</div>
 		</div>
 
-		<div id="container">
+		<div id="container" class="container">
 
 			<div id="content">
+						<input type="hidden" name="command" value="Back" />
+						
 				<table>
 					<tr>
 						<th>First Name</th>
@@ -39,9 +42,13 @@
 						</tr>
 					</c:forEach>
 				</table>
+				
 			</div>
+			    
+            
 		</div>
+		<button type="submit">Back</button> 
 	</div>
-
+</form>
 </body>
 </html>

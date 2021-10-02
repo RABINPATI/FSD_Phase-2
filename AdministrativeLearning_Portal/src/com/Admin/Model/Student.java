@@ -6,7 +6,6 @@ package com.Admin.Model;
  *
  */
 public class Student {
-
 	
 	private int id;
 	private String fname;
@@ -23,7 +22,6 @@ public class Student {
 		this.age = age;
 		this.aclass = aclass;
 	}
-	
 	
 	public int getId() {
 		return id;

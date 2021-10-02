@@ -31,7 +31,7 @@
 					<c:forEach var="classData" items="${CLASSES_LIST }">
 						<tr>
 							<c:url var="studentsLink" value="AdminControllerServlet">
-								<c:param name="command" value="ST_LIST" />
+								<c:param name="command" value="STUDINFO" />
 								<c:param name="classId" value="${classData.id }" />
 								<c:param name="section" value="${classData.section }" />
 								<c:param name="subject" value="${classData.subject }" />

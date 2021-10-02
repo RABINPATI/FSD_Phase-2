@@ -15,7 +15,7 @@ table {
  
 th {
 	border-bottom:1px solid gray;
-	background:none repeat scroll 0 0 #0775d3;
+	background:none repeat scroll 0 0 #ff00ff;
 	padding:10px;
 	color: #FFFFFF;
 }
@@ -29,7 +29,7 @@ tr:nth-child(even) {background: #FFFFFF}
 tr:nth-child(odd) {background: #BBBBBB}	
  
 #wrapper {width: 100%; text-align: center; }
-#header {width: 72%; background: #0775d3; margin-top: 0px; padding:5px 0px 15px 0px;}
+#header {width: 72%; background: #ff00ff; margin-top: 0px; padding:5px 0px 15px 0px;}
 #header h3 {width: 100%; margin:auto; color: #FFFFFF;}
 #container {width: 100%; margin:auto}
 #container h3 {color: #000;}
@@ -102,4 +102,14 @@ tr:nth-child(odd) {background: #BBBBBB}
 		border-width: 3px;
 		border-bottom: .5px solid rgba(255, 255, 255, 0.247);
 		 
+}
+button {   
+	  justify-content: right;
+       background-color: #4CAF50;   
+       width: 10%;  
+        color: white;   
+        padding: 5px;   
+        margin: 10px 0px;   
+        border: none;   
+        cursor: pointer;   
 }
