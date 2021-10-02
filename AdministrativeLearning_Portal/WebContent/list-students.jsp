@@ -13,16 +13,12 @@
 <div id="page" >
 	<jsp:include page="left-list.jsp" />
 
-	
 		<div id="wrapper">
-
 			<div id="header">
 				<h3>Students</h3>
 			</div>
 		</div>
-
 		<div id="container">
-
 			<div id="content">
 				<table>
 					<tr>
@@ -38,9 +34,5 @@
 						</tr>
 					</c:forEach>
 				</table>
-			</div>
-		</div>
-	</div>
-
-</body>
-</html>
+			</div></div></div>
+</body></html>

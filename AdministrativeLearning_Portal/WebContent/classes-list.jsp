@@ -16,7 +16,6 @@
 				<h3>Classes</h3>
 			</div>
 		</div>
-
 		<div id="container">
 
 			<div id="content">
@@ -44,7 +43,6 @@
 							<td><a href="${studentsLink }">StudentsInfo</a></td>
 						</tr>
 					</c:forEach>
-
 				</table>
 			</div>
 		</div>

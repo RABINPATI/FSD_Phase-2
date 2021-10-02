@@ -1,7 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 <%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c"%>
-
+<html>
+<body>
 <div class="sidenav" style="background-color:  #0775d3">
 	<h3 id="logo"><u>
 		Administrative Academy Portal</u>
@@ -29,4 +30,5 @@
 		<a style="font-size: 15px" class="bar-item" href="login.jsp">Log out</a>
 
 </div>
-
+</body>
+</html>
